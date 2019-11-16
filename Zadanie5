@@ -1,0 +1,5 @@
+List_Of_Names = ['Damian', 'Ola', 'Barbara', 'Robert', 'Zygmunt', 'Ewa']
+
+First = [word[0] for word in List_Of_Names]
+
+print(First)
