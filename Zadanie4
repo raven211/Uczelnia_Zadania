@@ -1,0 +1,15 @@
+import time
+from random import randint
+long_list = [randint(0, 3000) for element in range(1000000)]
+
+start = time.time()
+for num in long_list:
+    if num == -1:
+        print(num)
+print(time.time()-start)
+
+start = time.time()
+if -1 in long_list:
+    print('OK')
+print(time.time() - start)
+
