@@ -1,0 +1,11 @@
+word = 'computer_science'
+
+counter = 3
+while counter > 0:
+    val = input('Enter password: ')
+    if val==word:
+        print('YOU WIN!!! CONGRATULATIONS :)')
+        break
+    counter -= 1
+else:
+    print('YOU LOOSE!!! :(')
